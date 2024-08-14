@@ -50,8 +50,10 @@ And here. | Okay. | I think we get it.
 
 const MarkdownContext = createContext();
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useMarkdown = () => useContext(MarkdownContext);
 
+// eslint-disable-next-line react/prop-types
 export const MarkdownProvider = ({ children }) => {
   const [markdown, setMarkdown] = useState(defaultMarkdown);
 

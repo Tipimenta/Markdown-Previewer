@@ -7,7 +7,10 @@ const Preview = () => {
   const htmlString = marked(markdown); 
 
   return (
-    <div className={style.preview} id="preview" dangerouslySetInnerHTML={{ __html: htmlString }} />
+    <div className={style.preview}>
+    <h2>Preview</h2>
+    <div className={style.content} id="preview" dangerouslySetInnerHTML={{ __html: htmlString }} />
+    </div>
   );
 };
 
