@@ -1,0 +1,11 @@
+.editor{
+    background-color: #2f2f2f;
+    width: 46vw;
+    height: 85vh;
+    padding: 20px;
+}
+
+.editor textarea {
+    width: 98%;
+    height: 100%;
+}

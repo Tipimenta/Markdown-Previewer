@@ -1,0 +1,12 @@
+.preview{
+    background-color: rgb(243, 243, 243);
+    max-width: 100%;
+    width: 46vw;
+    height: 84vh;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.preview img{
+    width: 600px;
+}
